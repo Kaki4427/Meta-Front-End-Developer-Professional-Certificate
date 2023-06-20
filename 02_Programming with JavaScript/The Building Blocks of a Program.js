@@ -170,3 +170,12 @@ function letterFinder(word, match) {
 }
 letterFinder([],[])
 letterFinder("cat","c")
+
+var str = "Hello";
+console.log(str.match("jello"));
+
+try {
+Number(5).toPrecision(300)
+} catch(e) {
+console.log("There was an error")
+}
